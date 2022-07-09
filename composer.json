@@ -1,0 +1,21 @@
+{
+
+    "autoload": {
+    "psr-4": {
+        "": "src/"
+    },
+    "classmap": [
+        "classes/"
+    
+    ]
+},
+    "require": {
+        "php": ">=5.3.2",
+        "csanquer/pdo-service-provider": "~1.1dev"
+    },
+
+    "require-dev": {
+    "heroku/heroku-buildpack-php" : "dev-master"
+}
+
+}
